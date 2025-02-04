@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #2c3e50;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #1abc9c;
+        }
+      
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+   
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        p {
+            color: #555;
+        }
+      
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1abc9c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #16a085;
+        }
+    
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1>José Luis Quezada</h1>
+        </div>
+        <div class="menu">
+            <a href="#about">Sobre Mí</a>
+            <a href="#hobbies">Hobbies</a>
+           
+        </div>
+    </nav>
+
+    <div class="container">
+    
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy José Luis Quezada Renova. Llevo varios años dedicado al mundo del fitness y el gimnasio, lo cual me ha ayudado a mantener una vida saludable. Aunque disfruto mucho de la comida callejera, durante la semana sigo una dieta equilibrada. En mis ratos libres, me encanta ver películas y series; mi película favorita es <em>Intriga</em> y mi serie favorita es <em>Mr. Robot</em>.</p>
+            <a href="#" class="btn">Más sobre mí</a>
+        </section>
+    
+        <section id="hobbies">
+            <h2>Mis Hobbies e Intereses</h2>
+            <ul>
+                <li>Gimnasio</li>
+                <li>Comida callejera</li>
+                <li>Videojuegos</li>
+                <li>Películas y series</li>
+                <li>Boxeo</li>
+            </ul>
+        </section>
+       
+
+    <footer>
+        <p>&copy; 2023 José Luis Quezada. </p>
+        <p>Visita mi perfil en <a href="https://github.com/QuezadaJL12" target="_blank">GitHub</a>.</p>
+    </footer>
+</body>
+</html>
